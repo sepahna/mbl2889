@@ -28,6 +28,9 @@
 {{if ne .TitleMaxLen 0}}<h3>{{call .Translate `main.CreatePaste`}}</h3>{{end}}
 <form id="create-paste-form" action="/" method="post">
 	<div class="text-bar">
+<br>
+test mbarani
+<br>
 		<div>
 			{{if ne .TitleMaxLen 0}}<input
 				class="stretch-width" name="title" {{if gt .TitleMaxLen 0}}maxlength="{{.TitleMaxLen}}"{{end}}
